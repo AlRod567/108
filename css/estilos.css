@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Metropolis", sans-serif;
     font-size: 16px;
     overflow-x: hidden;
 }
@@ -15,24 +15,44 @@ body {
 /* Fonts */
 
 h1 {
-    font-family: "metropolis";
-    src: url(../Fonts/Metropolis-Black.otf);
+    font-family: "Metropolis";
+    src: url(../Fonts/metropolis-black-webfont.woff);
 }
 h2 {
-    font-family: "metropolis";
-    src: url(../Fonts/Metropolis-ExtraBold.otf);
+    font-family: "Metropolis";
+    src: url(../Fonts/metropolis-extrabold-webfont.woff);
 }
 h3 {
-    font-family: "metropolis";
-    src: url(../Fonts/Metropolis-Bold.otf);
+    font-family: "Metropolis";
+    src: url(../Fonts/metropolis-bold-webfont.woff2);
 }
 h4 {
-    font-family: "metropolis";
-    src: url(../Fonts/Metropolis-SemiBold.otf);
+    font-family: "Metropolis";
+    src: url(../Fonts/metropolis-medium-webfont.woff);
+}
+h5 {
+    font-family: "Poppins";
+    font-weight: 500;
+}
+h6 {
+    font-family: "Poppins";
+    font-weight: 400;
 }
 p {
-    font-family: "metropolis";
-    src: url(../Fonts/Metropolis-Regular.otf);
+    font-family: "Metropolis";
+    src: url(../Fonts/metropolis-light-webfont.woff);
+}
+li {
+    font-family: "Metropolis";
+    src: url(../Fonts/metropolis-light-webfont.woff);
+}
+td {
+    font-family: "Metropolis";
+    src: url(../Fonts/metropolis-light-webfont.woff);
+}
+th {
+    font-family: "Metropolis";
+    src: url(../Fonts/metropolis-bold-webfont.woff)
 }
 
 /* Header */
@@ -58,6 +78,7 @@ header .textos {
 
 header .titulo {
     margin: 50px;
+    margin-bottom: 0;
     font-size: 10vw;
 }
 
@@ -425,6 +446,7 @@ main {
     overflow: hidden;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
     padding-top: 130px;
 }
 
@@ -941,6 +963,6 @@ th {
     font-family: "metropolis";
     src: url(../Fonts/Metropolis-ExtraBold.otf);
     background: #043264;
-    padding: 20px;
+    padding: 15px;
 }
 
