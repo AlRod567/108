@@ -40,7 +40,7 @@ p {
 header {
     width: 100%;
     height: auto;
-    background: url(../Img/fondo1.png);
+    background-image: url(../Img/Fondo1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
