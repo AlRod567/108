@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Metropolis", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     overflow-x: hidden;
 }
@@ -15,16 +15,16 @@ body {
 /* Fonts */
 
 h1 {
-    font-family: "Metropolis";
-    src: url(../Fonts/metropolis-black-webfont.woff);
+    font-family: "Raleway";
+    font-weight: 900;
 }
 h2 {
-    font-family: "Metropolis";
-    src: url(../Fonts/metropolis-extrabold-webfont.woff);
+    font-family: "Raleway";
+    font-weight: 800;
 }
 h3 {
-    font-family: "Metropolis";
-    src: url(../Fonts/metropolis-bold-webfont.woff2);
+    font-family: "Raleway";
+    font-weight: 700;
 }
 h4 {
     font-family: "Metropolis";
@@ -39,20 +39,20 @@ h6 {
     font-weight: 400;
 }
 p {
-    font-family: "Metropolis";
-    src: url(../Fonts/metropolis-extralight-webfont.woff2);
+    font-family: "Raleway";
+    font-weight: 300;
 }
 li {
-    font-family: "Metropolis";
-    src: url(../Fonts/metropolis-light-webfont.woff);
+    font-family: "Raleway";
+    font-weight: 300;
 }
 td {
-    font-family: "Metropolis";
-    src: url(../Fonts/metropolis-light-webfont.woff);
+    font-family: "Raleway";
+    font-weight: 300;
 }
 th {
-    font-family: "Metropolis";
-    src: url(../Fonts/metropolis-bold-webfont.woff)
+    font-family: "Raleway";
+    font-weight: 800;
 }
 
 /* Header */
@@ -635,10 +635,10 @@ input[type="submit"] {
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:70vw) {
 
     header .titulo {
-        font-size: 75px;
+        font-size: 100px;
     }
     h2 .sobre-nosotros {
         font-size: 45px;
@@ -751,7 +751,7 @@ footer {
 }
 
 .logo-footer {
-    width: 80%;
+    width: 100%;
 }
 
 .sesgoarriba-unico-2 {
@@ -966,3 +966,8 @@ th {
     padding: 15px;
 }
 
+.horario-img {
+    align-self: center;
+    margin: 5vw;
+    max-width: 90vw;
+}
