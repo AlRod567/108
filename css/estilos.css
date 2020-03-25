@@ -635,19 +635,19 @@ input[type="submit"] {
     }
 }
 
-@media screen and (max-width:50vw) {
+@media screen and (max-width:10px) {
 
     header .titulo {
-        font-size: 100px;
+        font-size: 80vw;
     }
     h2 .sobre-nosotros {
-        font-size: 45px;
+        font-size: 30vw;
     }
     h3 {
-        font-size: 40px;
+        font-size: 25vw;
     }
     .titulo-patrocinadores h2{
-        font-size: 45px;
+        font-size: 30vw;
     }
     
 }
