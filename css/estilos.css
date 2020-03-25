@@ -725,10 +725,14 @@ body::-webkit-scrollbar-track {
 
 input {
     border-radius: 20px;
+    font-family: "Raleway";
+    font-weight: 300;
 }
 
 textarea {
     border-radius: 20px;
+    font-family: "Raleway";
+    font-weight: 300;
 }
 
 /* Footer */
@@ -999,12 +1003,4 @@ th {
     max-width: 90vw;
 }
 
-input {
-    font-family: "Raleway";
-    font-weight: 300;
-}
-textarea {
-    font-family: "Raleway";
-    font-weight: 300;
-}
 
