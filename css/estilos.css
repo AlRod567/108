@@ -27,15 +27,15 @@ h3 {
     font-weight: 700;
 }
 h4 {
-    font-family: "Metropolis";
-    src: url(../Fonts/metropolis-medium-webfont.woff);
+    font-family: "Raleway";
+    font-weight: 600;
 }
 h5 {
-    font-family: "Poppins";
+    font-family: "Raleway";
     font-weight: 500;
 }
 h6 {
-    font-family: "Poppins";
+    font-family: "Raleway";
     font-weight: 400;
 }
 p {
@@ -388,7 +388,7 @@ main {
 
 .encima {
     position: absolute;
-    padding: 25px;
+    padding: 5vw;
     top: 0;
     left: 0;
     width: 100%;
@@ -398,7 +398,7 @@ main {
 
 .encima h2 {
     position: relative;
-    margin: 20px;
+    margin: 0vw;
     margin-bottom: 0;
     top: 45%;
     text-align: center;
@@ -679,6 +679,10 @@ input[type="submit"] {
     .subtitulo-patrocinadores {
         font-size: 20px;
     }
+
+    .titulo-footer {
+        font-size: 40px;
+    }
 }
 
 
@@ -808,9 +812,9 @@ footer {
     height: auto;
     position: relative;
     background-image: url(../Img/fondo.png);
-    overflow: hidden;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
     padding-top: 130px;
 }
 
@@ -994,3 +998,13 @@ th {
     margin: 5vw;
     max-width: 90vw;
 }
+
+input {
+    font-family: "Raleway";
+    font-weight: 300;
+}
+textarea {
+    font-family: "Raleway";
+    font-weight: 300;
+}
+
