@@ -74,12 +74,16 @@ header {
 header .textos {
     margin-top: 100px;
     padding-bottom: 250px;
+    text-align: center;
 }
 
 header .titulo {
     margin: 50px;
     margin-bottom: 0;
     font-size: 10vw;
+    max-width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 .esc {
