@@ -79,11 +79,7 @@ header .textos {
 
 header .titulo {
     margin: 50px;
-    margin-bottom: 0;
-    font-size: 10vw;
-    max-width: 70vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    font-size: 90px;
 }
 
 .esc {
@@ -100,6 +96,7 @@ header .titulo {
 .sec {
     text-decoration: none;
     color: #fff;
+    font-size: 85px;
     transition: 0.3s;
 }
 
@@ -614,7 +611,7 @@ input[type="submit"] {
     }
 
     header .titulo {
-        font-size: 65px;
+        font-size: px;
     }
 
     header .subtitulo {
@@ -639,26 +636,44 @@ input[type="submit"] {
     }
 }
 
-@media screen and (max-width:10px) {
+@media screen and (max-width:800px) {
+    header .textos {
+        margin-top: 100px;
+    }
 
     header .titulo {
-        font-size: 80vw;
+        font-size: 50px;
     }
-    h2 .sobre-nosotros {
-        font-size: 30vw;
-    }
-    h3 {
-        font-size: 25vw;
-    }
-    .titulo-patrocinadores h2{
-        font-size: 30vw;
-    }
-    
-}
 
-@media screen and (max-width:10px) {
-    .encima h2 {
-        font-size: 10px;
+    .esc {
+        font-size: 50px;
+    }
+    .sec {
+        font-size: 50px;
+    }
+    .tec {
+        font-size: 50px;
+    }
+
+    header .subtitulo {
+        font-size: 25px;
+        margin-bottom: 32px;
+    }
+
+    .sobre-nosotros {
+        font-size: 46px;
+    }
+
+    .slogan {
+        font-size: 20px;
+    }
+
+    .titulo-patrocinadores {
+        font-size: 46px;
+    }
+
+    .subtitulo-patrocinadores {
+        font-size: 20px;
     }
 }
 
