@@ -149,6 +149,7 @@ header .boton {
 
 .boton {
     display: inline-block;
+    margin: 20px;
     padding: 6px;
     padding-bottom: 8px;
     width: 130px;
@@ -572,6 +573,11 @@ input[type="submit"] {
     .card {
         width: 48%;
     }
+
+    .logo-footer {
+        width: 80%;
+        
+    }
 }
 
 @media screen and (max-width:610px) {
@@ -683,6 +689,13 @@ input[type="submit"] {
     .titulo-footer {
         font-size: 40px;
     }
+
+    .td1 {
+        width: 90%;
+    }
+    .td2 {
+        width: 90%;
+    }
 }
 
 
@@ -745,44 +758,17 @@ footer {
     position: relative;
 }
 
-.tabla-redes {
-    width: 100%
+.parrafo-footer {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 10px;
+    color: rgb(255, 255, 255);
 }
 
-.td1 {
-    width: 50%;
-}
-
-.td2 {
-    width: 50%;
-    text-align: right;
-}
-
-.td-fb {
-    text-align: center;
-}
-
-.fb {
-    width: 20%;
-    padding: 30px;
-    z-index: 10;
-}
-
-.copy {
-    padding: 40px;
-    background-color: #D3303E;
-}
-
-.copy-table {
-    width: 100%;
-}
-
-.derechos {
-    color: #ffffff;
-}
-
-.logo-footer {
-    width: 100%;
+.logo-108 {
+    width: 70%;
+    margin: 0 15% 0 15%;
 }
 
 .sesgoarriba-unico-2 {
@@ -998,9 +984,14 @@ th {
 }
 
 .horario-img {
+    display: inline-block;
     align-self: center;
-    margin: 5vw;
-    max-width: 90vw;
+    margin: 5%;
+    width: 90%;
 }
 
+
+li {
+    margin-left: 10vw;
+}
 
