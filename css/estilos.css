@@ -772,7 +772,7 @@ footer {
 .parrafo-footer {
     margin-bottom: 13px;
     font-weight: 300;
-    text-align: justify;
+    text-align: left;
     color: rgb(255, 255, 255);
 }
 
