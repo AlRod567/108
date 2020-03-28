@@ -11,7 +11,6 @@ body {
 }
 
 
-
 /* Fonts */
 
 h1 {
@@ -434,6 +433,12 @@ main {
     border-radius: 20px;
 }
 
+
+.card::before {
+    background: blue;
+}
+
+
 .cards img {
     width: 140px;
     height: 140px;
@@ -495,6 +500,8 @@ main {
 .cliente img {
     width: 100%;
 }
+
+
 
 /* Footer1 */
 
@@ -626,6 +633,10 @@ input[type="submit"] {
         margin-bottom: 32px;
     }
 
+    .titulo-patrocinadores-historia {
+        font-size: 20px;
+    }
+
     .sobre-nosotros {
         font-size: 46px;
     }
@@ -706,7 +717,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar:vertical {
-    width:11px;
+    width: 8px;
 }
 
 body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
@@ -762,7 +773,6 @@ footer {
     margin-bottom: 13px;
     font-weight: 300;
     text-align: justify;
-    line-height: 10px;
     color: rgb(255, 255, 255);
 }
 
@@ -810,10 +820,9 @@ footer {
 
 .himno {
     width: 100vw;
-    height: 90vh;
     text-align: center;
     align-self: center;
-    margin-bottom: 80px;
+    padding-bottom: 200px;
 }
 
 .himno-texto {
@@ -822,12 +831,11 @@ footer {
 }
 
 .titulo-patrocinadores-historia {
-    margin: 20px;
-    padding: 50px 0;
+    margin: 10px 20px 20px 20px;
+    padding: 150px 5vw 0 5vw;
     color: #fff;
     text-align: center;
     font-size: 56px;
-    margin-top: 48px;
 }
 
 
@@ -881,10 +889,6 @@ footer {
 .examenes {
     width: 30vw;
 }
-
-
-
-
 
 .mapa {
     width: 90vw;
@@ -950,37 +954,6 @@ table {
 .horario {
     width: 10vw;
     border-top-left-radius: 19px;
-}
-
-.dias {
-    width: 15vw;
-}
-
-.dias-last {
-    width: 15vw;
-    border-bottom-left-radius: 20px;
-}
-
-.ultimo-dia {
-    width: 30vw;
-    border-top-right-radius: 20px;
-}
-
-.last {
-    border-bottom-right-radius: 20px;
-}
-
-td {
-    font-family: "metropolis";
-    src: url(../Fonts/Metropolis-Light.otf);
-    background: #D3303E;
-    padding: 20px;
-}
-th {
-    font-family: "metropolis";
-    src: url(../Fonts/Metropolis-ExtraBold.otf);
-    background: #043264;
-    padding: 15px;
 }
 
 .horario-img {
