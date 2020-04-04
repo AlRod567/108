@@ -8,6 +8,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     overflow-x: hidden;
+    zoom: 80%;
 }
 
 
@@ -72,7 +73,6 @@ header {
 
 header .textos {
     margin-top: 100px;
-    padding-bottom: 250px;
     text-align: center;
 }
 
@@ -148,7 +148,7 @@ header .boton {
 
 .boton {
     display: inline-block;
-    margin: 20px;
+    margin: 50px;
     padding: 6px;
     padding-bottom: 8px;
     width: 130px;
@@ -163,25 +163,6 @@ header .boton {
     margin-top: 3px;
 }
 
-.sesgoabajo {
-    z-index: 1;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-width: 0 0 35vh 100vw;
-    border-style: solid;
-    border-color: transparent transparent #fff transparent;
-}
-
-.sesgoarriba {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-width: 35vh 100vw 0 0;
-    border-style: solid;
-    border-color: #fff transparent transparent transparent;
-}
 
 .contenedor {
     width: 90%;
@@ -324,7 +305,6 @@ nav {
 .sobre-nosotros {
     text-align: center;
     font-size: 56px;
-    margin-bottom: 10px;
     font-weight: 600;
     color: #D3303E;
 }
@@ -335,6 +315,14 @@ nav {
     text-align: center;
     margin-bottom: 24px;
     color: #043264;
+}
+
+.slogan-profesores {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #fff;
 }
 
 .parrafo {
@@ -399,7 +387,6 @@ main {
 .encima h2 {
     position: relative;
     margin: 0vw;
-    margin-bottom: 0;
     top: 45%;
     text-align: center;
     color: #fff;
@@ -441,12 +428,9 @@ main {
     text-align: center;
     padding: 20px;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.76);
+    background: rgba(255, 255, 255, 0.151);
 }
 
-.card::hover {
-    background: blue;
-}
 
 .fondo-profesores {
     height: auto;
@@ -470,25 +454,15 @@ main {
 }
 
 .fondo {
-    height: 900px;
+    height: auto;
     position: relative;
     background-image: url(../Img/fondo.png);
     overflow: hidden;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    padding-top: 130px;
 }
 
-.sesgoabajo-unico {
-    z-index: 1;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-width: 0 0 35vh 100vw;
-    border-style: solid;
-    border-color: transparent transparent #043264 transparent;
-}
 
 .titulo-patrocinadores,
 .subtitulo-patrocinadores {
@@ -510,7 +484,6 @@ main {
 .clientes {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 64px;
     width: 100%;
     justify-content: space-between;
 }
@@ -768,7 +741,7 @@ body::-webkit-scrollbar-track {
 
     
 .pre-footer {
-    height: 280px;
+    height: auto;
     background-color: #D3303E; 
     position: relative;
 }
@@ -807,16 +780,6 @@ footer {
     margin: 0 15% 0 15%;
 }
 
-.sesgoarriba-unico-2 {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-width: 35vh 100vw 0 0;
-    border-style: solid;
-    border-color: #043264 transparent transparent transparent;
-}
-
 /* Historia */
 
 
@@ -841,14 +804,14 @@ footer {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    padding-top: 130px;
 }
 
 .himno {
-    width: 100vw;
+    width: 100%;
+    padding: 0 10%;
     text-align: center;
     align-self: center;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
 }
 
 .himno-texto {
@@ -874,33 +837,6 @@ footer {
     margin-bottom: 64px;
 }
 
-
-
-
-
-
-.sesgoarriba-comunicado {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-width: 35vh 100vw 0 0;
-    border-style: solid;
-    border-color: #fff transparent transparent transparent;
-    vertical-align: bottom;
-}
-
-
-.sesgoarriba-unico-3 {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-width: 35vh 100vw 0 0;
-    border-style: solid;
-    border-color: #fff transparent transparent transparent;
-}
-
 .pre-footer2 {
     height: 280px;
     background-color: #043264; 
@@ -917,10 +853,10 @@ footer {
 }
 
 .mapa {
-    width: 90vw;
+    width: 90%;
     height: auto;
     text-align: center;
-    margin: 5vw;
+    margin: 5%;
 
 }
 
@@ -929,26 +865,12 @@ footer {
 }
 
 .mapa-contactos {
-    width: 90vw;
-    height: 60vh;
+    width: 80%;
+    height: 60vw;
     text-align: center;
-    margin: 5vw;
+    margin: 10%;
 
 }
-
-
-
-.sesgoabajo-blue {
-    z-index: 1;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-width: 0 0 35vh 100vw;
-    border-style: solid;
-    border-color: transparent transparent #043264 transparent;
-}
-
-
 
 h1 {
     font-weight: 900;
