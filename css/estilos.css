@@ -8,7 +8,6 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     overflow-x: hidden;
-    zoom: 80%;
 }
 
 
@@ -59,7 +58,6 @@ th {
 
 header {
     width: 100%;
-    height: auto;
     background-image: url(../Img/Fondo1.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -148,7 +146,7 @@ header .boton {
 
 .boton {
     display: inline-block;
-    margin: 50px;
+    margin: 5vw;
     padding: 6px;
     padding-bottom: 8px;
     width: 130px;
@@ -169,7 +167,7 @@ header .boton {
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
-    padding: 52px 0;
+    padding: 10vw 0;
 }
 
 /* Menu */
@@ -381,7 +379,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #D3303E;
+    background:#D3303E;
 }
 
 .encima h2 {
@@ -502,7 +500,6 @@ main {
 
 .footer {
     background: #043264;
-    height: auto;
 }
 
 .titulo-footer,
@@ -615,6 +612,14 @@ input[type="submit"] {
         width: 90%;
         height: 200px;
         margin-bottom: 50px;
+    }
+
+    .texto-footer {
+        width: 90vw;
+    }
+
+    .logo-footer {
+        width: 90vw;
     }
 }
 
@@ -763,39 +768,27 @@ textarea {
 footer {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 5vw;
     background-color: #D3303E;
     position: relative;
+    overflow: hidden;
 }
 
-.parrafo-footer {
-    margin-bottom: 13px;
-    font-weight: 300;
-    text-align: left;
-    color: rgb(255, 255, 255);
+.texto-footer {
+    width: 40vw;
+    float: left;
 }
 
-.logo-108 {
-    width: 70%;
-    margin: 0 15% 0 15%;
+.logo-footer {
+    width: 49vw;
+    float: left;
+}
+
+.logo-footer-img {
+    width: 100%;
 }
 
 /* Historia */
-
-
-
-
-@keyframes cambia-color {
-    0% {
-        background-position: 0%, 50%;
-    }
-    50% {
-        background-position: 100%, 50%;
-    }
-    100% {
-        background-position: 0%, 100%;
-    }
-}
 
 .fondo-historia {
     height: auto;
@@ -837,12 +830,6 @@ footer {
     margin-bottom: 64px;
 }
 
-.pre-footer2 {
-    height: 280px;
-    background-color: #043264; 
-    position: relative;
-}
-
 .comunicado {
     margin-left: 80px;
 }
@@ -865,10 +852,10 @@ footer {
 }
 
 .mapa-contactos {
-    width: 80%;
-    height: 60vw;
+    width: 90vw;
+    height: 40vw;
     text-align: center;
-    margin: 10%;
+    margin: 5vw;
 
 }
 
