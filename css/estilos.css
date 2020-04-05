@@ -675,6 +675,14 @@ input[type="submit"] {
     .subtitulo-patrocinadores {
         font-size: 20px;
     }
+
+    .texto-footer {
+        width: 90%;
+    }
+
+    .logo-footer {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:600px) {
