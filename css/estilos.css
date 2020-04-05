@@ -640,6 +640,16 @@ input[type="submit"] {
         width: 100%;
         vertical-align: middle;
     }
+
+    .titulo-red,
+    .titulo-blue {
+        font-size: 10px;
+    }
+
+    .subtitulo-red, 
+    .subtitulo-blue {
+        font-size: 5px;
+    }
 }
 
 @media screen and (max-width:380px) {
