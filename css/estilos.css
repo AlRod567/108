@@ -745,8 +745,8 @@ input[type="submit"] {
         font-size: 20px;
     }
 
-    .titulo-red,
-    .titulo-blue {
+    h2 .titulo-red,
+    h2 .titulo-blue {
         font-size: 2vw;
     }
 
@@ -865,7 +865,7 @@ footer {
     padding: 150px 5vw 0 5vw;
     color: #fff;
     text-align: center;
-    font-size: 56px;
+    font-size: 50px;
 }
 
 
@@ -957,12 +957,12 @@ li {
 }
 
 .titulo-red {
-    font-size: 56px;
+    font-size: 50px;
     margin-top: 20px;
 }
 
 .subtitulo-red {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 30px;
     font-weight: 300;
 }
@@ -974,12 +974,12 @@ li {
 }
 
 .titulo-blue {
-    font-size: 56px;
+    font-size: 50px;
     margin-top: 20px;
 }
 
 .subtitulo-blue {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 30px;
     font-weight: 300;
 }
