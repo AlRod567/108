@@ -198,7 +198,7 @@ header .boton {
 
 nav {
     position: sticky;
-    top: 30px;
+    top: 5vw;
     z-index: 10;
 }
 
