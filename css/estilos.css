@@ -729,7 +729,7 @@ input[type="submit"] {
     }
 
     .titulo-red {
-        font-size: 40px;
+        font-size: px;
     }
 
     .subtitulo-red {
@@ -737,7 +737,7 @@ input[type="submit"] {
     }
 
     .titulo-blue {
-        font-size: 14px;
+        font-size: px;
     }
 
     .subtitulo-blue {
