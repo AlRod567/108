@@ -683,6 +683,23 @@ input[type="submit"] {
     .logo-footer {
         width: 90%;
     }
+
+    .titulo-red {
+        font-size: 46px;
+    }
+
+    .subtitulo-red {
+        font-size: 26px;
+    }
+
+    .titulo-blue {
+        font-size: 46px;
+    }
+
+    .subtitulo-blue {
+        font-size: 26px;
+    }
+
 }
 
 @media screen and (max-width:600px) {
@@ -730,6 +747,7 @@ input[type="submit"] {
 
     .titulo-red {
         font-size: 20px;
+        width: 90%;
     }
 
     .subtitulo-red {
