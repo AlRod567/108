@@ -251,7 +251,7 @@ nav {
     display: block;
     width: 33px;
     height: 4px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     position: relative;
 
     background: #D3303E;
@@ -330,6 +330,7 @@ nav {
     font-size: 56px;
     color: #D3303E;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 .slogan {
