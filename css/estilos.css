@@ -669,11 +669,11 @@ input[type="submit"] {
     }
 
     .titulo-patrocinadores {
-        font-size: 46px;
+        font-size: 36px;
     }
 
     .subtitulo-patrocinadores {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .texto-footer {
@@ -685,19 +685,19 @@ input[type="submit"] {
     }
 
     .titulo-red {
-        font-size: 46px;
+        font-size: 20px;
     }
 
     .subtitulo-red {
-        font-size: 26px;
+        font-size: 12px;
     }
 
     .titulo-blue {
-        font-size: 46px;
+        font-size: 20px;
     }
 
     .subtitulo-blue {
-        font-size: 26px;
+        font-size: 12px;
     }
 
 }
@@ -746,20 +746,19 @@ input[type="submit"] {
     }
 
     .titulo-red {
-        font-size: 20px;
-        width: 90%;
+        font-size: 36ox;
     }
 
     .subtitulo-red {
-        font-size: 14px;
-    }
-
-    .titulo-blue {
         font-size: 20px;
     }
 
+    .titulo-blue {
+        font-size: 36px;
+    }
+
     .subtitulo-blue {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .titulo-footer {
