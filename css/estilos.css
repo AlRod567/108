@@ -375,6 +375,7 @@ main {
 
 .galeria {
     width: 100%;
+    height: auto;
     overflow: hidden;
     display: flex;
     position: relative;
@@ -779,10 +780,13 @@ footer {
     background-color: #D3303E;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .texto-footer {
-    width: 40vw;
+    width: 45%;
     float: left;
     color: #fff;
 }
@@ -796,7 +800,7 @@ footer {
 }
 
 .logo-footer {
-    width: 49vw;
+    width: 45%;
     float: left;
 }
 
