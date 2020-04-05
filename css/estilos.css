@@ -164,7 +164,7 @@ header .boton {
 .boton-black {
     display: inline-block;
     margin: 5vw;
-    padding: 6px;
+    padding: 8px;
     padding-bottom: 8px;
     width: auto;
     border: 1px solid rgb(32, 32, 32);
@@ -206,7 +206,7 @@ nav {
 {
     display: block;
     position: relative;
-    top: 50px;
+    top: 5vw;
     left: 5vw;
 
     z-index: 1;
@@ -633,11 +633,12 @@ input[type="submit"] {
     }
 
     .texto-footer {
-        width: 90vw;
+        width: 100%;
     }
 
     .logo-footer {
-        width: 90vw;
+        width: 100%;
+        vertical-align: middle;
     }
 }
 
@@ -722,13 +723,6 @@ input[type="submit"] {
     .titulo-footer {
         font-size: 40px;
     }
-
-    .td1 {
-        width: 90%;
-    }
-    .td2 {
-        width: 90%;
-    }
 }
 
 
@@ -777,7 +771,6 @@ textarea {
 footer {
     width: 100%;
     margin: 0;
-    padding: 5vw;
     background-color: #D3303E;
     position: relative;
     overflow: hidden;
@@ -802,7 +795,7 @@ footer {
 
 .logo-footer {
     width: 45%;
-    float: left;
+    float: right;
 }
 
 .logo-footer-img {
