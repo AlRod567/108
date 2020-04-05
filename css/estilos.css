@@ -598,7 +598,7 @@ input[type="submit"] {
     }
 }
 
-@media screen and (max-width:610px) {
+@media screen and (max-width:640px) {
     header .textos {
         margin-top: 130px;
     }
@@ -746,7 +746,7 @@ input[type="submit"] {
     }
 
     .titulo-red {
-        font-size: 36ox;
+        font-size: 0.7rem;
     }
 
     .subtitulo-red {
