@@ -200,6 +200,7 @@ nav {
     position: sticky;
     top: 5px;
     z-index: 10;
+    height: 50px;
 }
 
 #menuToggle
@@ -250,7 +251,7 @@ nav {
     display: block;
     width: 33px;
     height: 4px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     position: relative;
 
     background: #D3303E;
