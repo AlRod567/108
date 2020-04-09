@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Raleway", sans-serif;
+    font-family: "Metropolis", sans-serif;
     font-size: 16px;
     overflow-x: hidden;
 }
@@ -14,44 +14,64 @@ body {
 /* Fonts */
 
 h1 {
-    font-family: "Raleway";
-    font-weight: 900;
+    font-family: "Metropolis";
+        src: url(../Fonts/Metropolis-Black.eot) format('embedded-opentype');
+        src: url(../Fonts/Metropolis-Black.svg) format('svg');
+        src: url(../Fonts/Metropolis-Black.woff) format('woff');
 }
 h2 {
-    font-family: "Raleway";
-    font-weight: 800;
+    font-family: "Metropolis";
+        src: url(../Fonts/Metropolis-ExtraBold.eot) format('embedded-opentype');
+        src: url(../Fonts/Metropolis-ExtraBold.svg) format('svg');
+        src: url(../Fonts/Metropolis-ExtraBold.woff) format('woff');
 }
 h3 {
-    font-family: "Raleway";
-    font-weight: 700;
+    font-family: "Metropolis";
+        src: url(../Fonts/Metropolis-Bold.eot) format('embedded-opentype');
+        src: url(../Fonts/Metropolis-Bold.svg) format('svg');
+        src: url(../Fonts/Metropolis-Bold.woff) format('woff');
 }
 h4 {
-    font-family: "Raleway";
-    font-weight: 600;
+    font-family: "Metropolis";
+        src: url(../Fonts/Metropolis-SemiBold.eot) format('embedded-opentype');
+        src: url(../Fonts/Metropolis-SemiBold.svg) format('svg');
+        src: url(../Fonts/Metropolis-SemiBold.woff) format('woff'); 
 }
 h5 {
-    font-family: "Raleway";
-    font-weight: 500;
+    font-family: "Metropolis";
+        src: url(../Fonts/Metropolis-Medium.eot) format('embedded-opentype');
+        src: url(../Fonts/Metropolis-Medium.svg) format('svg');
+        src: url(../Fonts/Metropolis-Medium.woff) format('woff');
 }
 h6 {
-    font-family: "Raleway";
-    font-weight: 400;
+    font-family: "Metropolis";
+        src: url(../Fonts/Metropolis-Regular.eot) format('embedded-opentype');
+        src: url(../Fonts/Metropolis-Regular.svg) format('svg');
+        src: url(../Fonts/Metropolis-Regular.woff) format('woff');
 }
 p {
-    font-family: "Raleway";
-    font-weight: 300;
+    font-family: "Metropolis";
+        src: url(../Fonts/Metropolis-Light.eot) format('embedded-opentype');
+        src: url(../Fonts/Metropolis-Light.svg) format('svg');
+        src: url(../Fonts/Metropolis-Light.woff) format('woff');
 }
 li {
-    font-family: "Raleway";
-    font-weight: 300;
+    font-family: "Metropolis";
+    src: url(../Fonts/Metropolis-SemiBold.eot) format('embedded-opentype');
+    src: url(../Fonts/Metropolis-SemiBold.svg) format('svg');
+    src: url(../Fonts/Metropolis-SemiBold.woff) format('woff');
 }
 td {
-    font-family: "Raleway";
-    font-weight: 300;
+    font-family: "Metropolis";
+    src: url(../Fonts/Metropolis-SemiBold.eot) format('embedded-opentype');
+    src: url(../Fonts/Metropolis-SemiBold.svg) format('svg');
+    src: url(../Fonts/Metropolis-SemiBold.woff) format('woff');
 }
 th {
-    font-family: "Raleway";
-    font-weight: 800;
+    font-family: "Metropolis";
+        src: url(../Fonts/Metropolis-ExtraBold.eot) format('embedded-opentype');
+        src: url(../Fonts/Metropolis-ExtraBold.svg) format('svg');
+        src: url(../Fonts/Metropolis-ExtraBold.woff) format('woff');
 }
 
 /* Header */
@@ -595,6 +615,11 @@ input[type="submit"] {
     .logo-footer {
         width: 80%;
         
+    }
+
+    .texto-footer {
+        width: 90%;
+        height: auto;
     }
 }
 
