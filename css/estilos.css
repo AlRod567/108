@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Metropolis", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     overflow-x: hidden;
 }
@@ -14,64 +14,35 @@ body {
 /* Fonts */
 
 h1 {
-    font-family: "Metropolis";
-        src: url(../Fonts/Metropolis-Black.eot) format('embedded-opentype');
-        src: url(../Fonts/Metropolis-Black.svg) format('svg');
-        src: url(../Fonts/Metropolis-Black.woff) format('woff');
+    font-family: 'Poppins';
+    margin-bottom: unset;
 }
 h2 {
-    font-family: "Metropolis";
-        src: url(../Fonts/Metropolis-ExtraBold.eot) format('embedded-opentype');
-        src: url(../Fonts/Metropolis-ExtraBold.svg) format('svg');
-        src: url(../Fonts/Metropolis-ExtraBold.woff) format('woff');
+    font-family: 'Poppins';
 }
 h3 {
-    font-family: "Metropolis";
-        src: url(../Fonts/Metropolis-Bold.eot) format('embedded-opentype');
-        src: url(../Fonts/Metropolis-Bold.svg) format('svg');
-        src: url(../Fonts/Metropolis-Bold.woff) format('woff');
+    font-family: 'Poppins';
 }
 h4 {
-    font-family: "Metropolis";
-        src: url(../Fonts/Metropolis-SemiBold.eot) format('embedded-opentype');
-        src: url(../Fonts/Metropolis-SemiBold.svg) format('svg');
-        src: url(../Fonts/Metropolis-SemiBold.woff) format('woff'); 
+    font-family: 'Poppins';
 }
 h5 {
-    font-family: "Metropolis";
-        src: url(../Fonts/Metropolis-Medium.eot) format('embedded-opentype');
-        src: url(../Fonts/Metropolis-Medium.svg) format('svg');
-        src: url(../Fonts/Metropolis-Medium.woff) format('woff');
+    font-family: 'Poppins';
 }
 h6 {
-    font-family: "Metropolis";
-        src: url(../Fonts/Metropolis-Regular.eot) format('embedded-opentype');
-        src: url(../Fonts/Metropolis-Regular.svg) format('svg');
-        src: url(../Fonts/Metropolis-Regular.woff) format('woff');
+    font-family: 'Poppins';
 }
 p {
-    font-family: "Metropolis";
-        src: url(../Fonts/Metropolis-Light.eot) format('embedded-opentype');
-        src: url(../Fonts/Metropolis-Light.svg) format('svg');
-        src: url(../Fonts/Metropolis-Light.woff) format('woff');
+    font-family: 'Poppins';
 }
 li {
-    font-family: "Metropolis";
-    src: url(../Fonts/Metropolis-SemiBold.eot) format('embedded-opentype');
-    src: url(../Fonts/Metropolis-SemiBold.svg) format('svg');
-    src: url(../Fonts/Metropolis-SemiBold.woff) format('woff');
+    font-family: 'Poppins';
 }
 td {
-    font-family: "Metropolis";
-    src: url(../Fonts/Metropolis-SemiBold.eot) format('embedded-opentype');
-    src: url(../Fonts/Metropolis-SemiBold.svg) format('svg');
-    src: url(../Fonts/Metropolis-SemiBold.woff) format('woff');
+    font-family: 'Poppins';
 }
 th {
-    font-family: "Metropolis";
-        src: url(../Fonts/Metropolis-ExtraBold.eot) format('embedded-opentype');
-        src: url(../Fonts/Metropolis-ExtraBold.svg) format('svg');
-        src: url(../Fonts/Metropolis-ExtraBold.woff) format('woff');
+    font-family: 'Poppins';
 }
 
 /* Header */
