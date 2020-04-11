@@ -5,51 +5,74 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Metropolis', sans-serif;
     font-size: 16px;
     overflow-x: hidden;
 }
 
+/* Fuentes */
 
-/* Fonts */
+@font-face {
+    font-family: 'Metropolis 900';
+    src: url(../fonts/Metropolis-Black.woff) format(woff);
+    font-weight: 900;
+}
 
-h1 {
-    font-family: 'Poppins';
-    margin-bottom: unset;
+@font-face {
+    font-family: 'Metropolis 800';
+    src: url(../fonts/Metropolis-ExtraBold.woff) format(woff);
+    font-weight: 800;
 }
-h2 {
-    font-family: 'Poppins';
+
+@font-face {
+    font-family: 'Metropolis 700';
+    src: url(../fonts/Metropolis-Bold.woff) format(woff);
+    font-weight: 700;
 }
-h3 {
-    font-family: 'Poppins';
+
+@font-face {
+    font-family: 'Metropolis 600';
+    src: url(../fonts/Metropolis-SemiBold.woff) format(woff);
+    font-weight: 600;
 }
-h4 {
-    font-family: 'Poppins';
+
+@font-face {
+    font-family: 'Metropolis 500';
+    src: url(../fonts/Metropolis-Medium.woff) format(woff);
+    font-weight: 500;
 }
-h5 {
-    font-family: 'Poppins';
+
+@font-face {
+    font-family: 'Metropolis 400';
+    src: url(../fonts/Metropolis-Regular.woff) format(woff);
+    font-weight: 400;
 }
-h6 {
-    font-family: 'Poppins';
+
+@font-face {
+    font-family: 'Metropolis 300';
+    src: url(../fonts/Metropolis-Light.woff) format(woff);
+    font-weight: 300;
 }
-p {
-    font-family: 'Poppins';
+
+@font-face {
+    font-family: 'Metropolis 200';
+    src: url(../fonts/Metropolis-ExtraLight.woff) format(woff);
+    font-weight: 200;
 }
-li {
-    font-family: 'Poppins';
+
+@font-face {
+    font-family: 'Metropolis 100';
+    src: url(../fonts/Metropolis-Thin.woff) format(woff);
+    font-weight: 100;
 }
-td {
-    font-family: 'Poppins';
-}
-th {
-    font-family: 'Poppins';
-}
+
+
 
 /* Header */
 
 header {
     width: 100%;
-    background-image: url(../Img/Fondo1.jpg);
+    background-image: url(../img/Fondo1.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -59,7 +82,6 @@ header {
     text-align: center;
 }
 
-
 header .textos {
     margin-top: 100px;
     text-align: center;
@@ -67,80 +89,73 @@ header .textos {
 
 header .titulo {
     margin: 5vw;
-    font-size: 90px;
+    font-weight: 900;
+    font-size: 80px;
 }
 
-.esc {
+header .esc {
     text-decoration: none;
     color: #fff;
     transition: 0.3s;
 }
-
-.esc:hover {
+header .esc:hover {
     color: #043264;
     transition: width 2s linear 1s;
 }
 
-.sec {
-    text-decoration: none;
-    color: #fff;
-    font-size: 85px;
-    transition: 0.3s;
-}
-
-.tec {
+header .sec {
     text-decoration: none;
     color: #fff;
     transition: 0.3s;
 }
+header .sec:hover {
+    color: #d3303e;
+    transition: width 2s linear 1s;
+}
 
-.tec:hover {
+header .tec {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+header .tec:hover {
     color: #043264;
     transition: width 2s linear 1s;
 }
 
-.sec:hover {
-    color: #D3303E;
-    transition: width 2s linear 1s;
-}
-
-.num {
+header .num {
     text-decoration: none;
     color: #fff;
-    transition: 0.3s;
+    transition: width 2s linear 1s;
 }
-
-.num:hover {
-    color: #D3303E;
+header .num:hover {
+    color: #d3303e;
     transition: width 2s linear 1s;
 }
 
 header .subtitulo {
     font-size: 30px;
     font-weight: 300;
-    margin-bottom: 32px;
-    margin: 0 5vw 0 5vw;
+    margin: 32px 0 0px 0;
 }
 
 header .boton {
     display: inline-block;
-    padding: 6px;
-    padding-bottom: 8px;
+    padding: 6px 6px 8px 6px;
     width: 140px;
     border: 1px solid #fff;
     color: #fff;
-    font-size: 19px;
+    font-size: 15px;
     text-align: center;
     text-decoration: none;
-    border-radius: 16px;
+    border-radius: 20px;
 }
 
 .boton {
     display: inline-block;
     margin: 5vw 0;
-    padding: 6px;
+    padding: 6px 10px;
     padding-bottom: 8px;
-    width: 130px;
     border: 1px solid #fff;
     color: #fff;
     font-size: 20px;
@@ -148,44 +163,36 @@ header .boton {
     text-decoration: none;
     border-radius: 20px;
 }
+
 .boton-texto {
+    margin-top: 3px;
+}
+
+.boton-texto-inscripciones {
+    font-size: 15px;
+    text-align: center;
     margin-top: 3px;
 }
 
 .boton-black {
     display: inline-block;
-    margin: 5vw;
-    padding: 8px;
+    margin: 5vw 0;
+    padding: 6px;
     padding-bottom: 8px;
-    width: auto;
-    border: 1px solid rgb(32, 32, 32);
-    color: rgb(32, 32, 32);
+    width: 100px;
+    border: 1px solid rgb(15, 15, 15);
+    color: rgb(15, 15, 15);
     font-size: 15px;
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
 }
-.boton-texto {
+
+.boton-texto-black {
     margin-top: 3px;
 }
 
-
-.contenedor {
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-    padding: 10vw 0;
-}
-
-.contenedor-profesores {
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-}
-
-/* Menu */
+/* Nav */
 
 nav {
     position: sticky;
@@ -315,59 +322,64 @@ nav {
 
 /* Main */
 
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 10vw 0;
+}
+
+.contenedor-slim {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 0;
+    text-align: center;
+}
+
 .sobre-nosotros {
     text-align: center;
-    font-size: 56px;
+    font-size: 55px;
     color: #D3303E;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 20px;
 }
 
 .slogan {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 300;
     text-align: center;
     margin-bottom: 25px;
     color: #043264;
 }
 
-.slogan-profesores {
-    font-size: 24px;
-    font-weight: 300;
-    text-align: center;
-    margin-bottom: 24px;
-    color: #fff;
-}
-
 .parrafo {
-    margin-bottom: 13px;
-    font-weight: 300;
+    margin-bottom: 12px;
+    font-weight: 200;
     text-align: justify;
     line-height: 24px;
     color: rgb(26, 26, 26);
 }
 
-main {
-    position: relative;
-}
-
 .acerca-de .boton {
     display: inline-block;
     padding: 6px;
-    width: 128px;
-    font-weight: 300;
+    width: 125px;
+    font-weight: 200;
     border: 1px solid rgba(24, 16, 16, .7);
     color: rgb(24, 16, 16);
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
-    margin-top: 24px;
+    margin-top: 25px;
 }
 
 .galeria {
     width: 100%;
-    height: auto;
+    height: 500px;
     overflow: hidden;
     display: flex;
     position: relative;
@@ -389,17 +401,15 @@ main {
 
 .encima {
     position: absolute;
-    padding: 5vw;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background:#D3303E;
+    background: #D3303E;
 }
 
 .encima h2 {
     position: relative;
-    margin: 0vw;
     top: 45%;
     text-align: center;
     color: #fff;
@@ -415,6 +425,7 @@ main {
     margin: auto;
 }
 
+
 .cards {
     width: 100%;
     margin: auto;
@@ -426,35 +437,13 @@ main {
 .card {
     margin: 20px 0;
     width: 30%;
-    height: 250px;
+    height: 270px;
     text-align: center;
     padding: 20px;
     box-shadow: 0px 0px 4px 0 rgba(2, 2, 2, 0.849);
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.76);
+    background: rgba(255, 255, 255, 0.507);
 }
-
-.card-profesores {
-    margin: 20px 0;
-    width: 30%;
-    height: 250px;
-    text-align: center;
-    padding: 20px;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.041);
-}
-
-
-.fondo-profesores {
-    position: relative;
-    background-image: url(../Img/fondo.png);
-    overflow: hidden;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-
 .cards img {
     width: 140px;
     height: 140px;
@@ -465,64 +454,63 @@ main {
 
 .fondo {
     position: relative;
-    background-image: url(../Img/fondo.png);
+    background-image: url(../img/fondo.png);
     overflow: hidden;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
-
-.titulo-patrocinadores,
-.subtitulo-patrocinadores {
+.titulo-egresados,
+.subtitulo-egresados {
     color: #fff;
     text-align: center;
 }
 
-.titulo-patrocinadores {
-    font-size: 56px;
+.titulo-egresados {
+    font-size: 55px;
 }
 
-.subtitulo-patrocinadores {
-    font-size: 24px;
+.subtitulo-egresados {
+    font-size: 25px;
     font-weight: 300;
-    margin-bottom: 64px;
+    margin-bottom: 65px;
 }
 
-.clientes {
+.egresados {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
 }
 
-.cliente {
+.egresado {
     width: 30%;
 }
 
-.cliente img {
+.egresado img {
     width: 100%;
 }
 
-
-
-/* Footer1 */
-
-.footer {
+.contactos {
     background: #043264;
 }
 
-.titulo-footer,
-.subtitulo-footer {
+.titulo-contactos,
+.subtitulo-contactos {
     color: #fff;
     text-align: center;
-    font-weight: 400;
-    font-size: 56px;
 }
 
-.subtitulo-footer {
-    font-size: 16px;
-    margin-bottom: 64px;
+.titulo-contactos {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.subtitulo-contactos {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 65px;
 }
 
 form {
@@ -533,17 +521,19 @@ form {
     margin: auto;
 }
 
-input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="text"] {
+    font-family: 'Metropolis';
+        src: url(../fonts/Metropolis-Medium.woff);
     display: inline-block;
     width: 48%;
     padding: 13px;
     border: none;
     color: #fff;
-    font-family: 'open sans';
     background: rgba(37, 37, 33, .7);
-    margin-bottom: 16px;
-    border-top: 5px solid rgba(37, 37, 33, .7);
+    margin-bottom: 15px;
+    border-top: solid rgba(37, 37, 33, .7);
+    border-radius: 20px;
 }
 
 input[type="text"]:focus,
@@ -553,9 +543,10 @@ textarea:focus {
 }
 
 textarea {
+    font-family: 'Metropolis';
+        src: url(../fonts/Metropolis-Medium.woff);
     display: block;
     width: 100%;
-    max-width: 100%;
     min-width: 100%;
     max-height: 200px;
     min-height: 200px;
@@ -563,17 +554,155 @@ textarea {
     padding: 13px;
     border: none;
     color: #fff;
-    font-family: 'open sans';
-    margin-bottom: 16px;
+    margin-bottom: 15px;
+    border-radius: 20px;
 }
 
 input[type="submit"] {
     display: inline-block;
-    padding: 13px;
+    padding: 15px;
     border: none;
     color: #fff;
     background: rgba(37, 37, 33, .7);
-    width: 96px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+/* Footer */
+
+.footer-distributed{
+	background-color: #D3303E;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	margin-top: 0px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font-weight: 900;
+	font-size: 20px;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color: #043264;
+}
+
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #f4f4f4;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #043264;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #043264;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #f4f4f4;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #043264;
+	border-radius: 50%;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
 }
 
 /* Responsive */
@@ -581,16 +710,6 @@ input[type="submit"] {
 @media screen and (max-width:900px) {
     .card {
         width: 48%;
-    }
-
-    .logo-footer {
-        width: 80%;
-        
-    }
-
-    .texto-footer {
-        width: 90%;
-        height: auto;
     }
 }
 
@@ -623,18 +742,9 @@ input[type="submit"] {
         display: none;
     }
 
-    .cliente {
+    .egresado {
         width: 90%;
         margin-bottom: 50px;
-    }
-
-    .texto-footer {
-        width: 100%;
-    }
-
-    .logo-footer {
-        width: 100%;
-        vertical-align: middle;
     }
 }
 
@@ -644,7 +754,7 @@ input[type="submit"] {
     }
 
     header .titulo {
-        font-size: px;
+        font-size: 35px;
     }
 
     header .subtitulo {
@@ -652,7 +762,7 @@ input[type="submit"] {
         margin-bottom: 32px;
     }
 
-    .titulo-patrocinadores-historia {
+    .titulo-egresados-historia {
         font-size: 10px;
     }
 
@@ -664,22 +774,13 @@ input[type="submit"] {
         font-size: 20px;
     }
 
-    .titulo-patrocinadores {
+    .titulo-egresados {
         font-size: 36px;
     }
 
-    .subtitulo-patrocinadores {
+    .subtitulo-egresados {
         font-size: 16px;
     }
-
-    .texto-footer {
-        width: 90%;
-    }
-
-    .logo-footer {
-        width: 90%;
-    }
-
     .titulo-red {
         font-size: 20px;
     }
@@ -695,7 +796,6 @@ input[type="submit"] {
     .subtitulo-blue {
         font-size: 12px;
     }
-
 }
 
 @media screen and (max-width:640px) {
@@ -704,21 +804,9 @@ input[type="submit"] {
     }
 
     header .titulo {
-        font-size: 20px;
+        font-size: 55px;
     }
 
-    .esc {
-        font-size: 50px;
-    }
-    .sec {
-        font-size: 50px;
-    }
-    .tec {
-        font-size: 50px;
-    }
-    .num {
-        font-size: 50px;
-    }
 
     header .subtitulo {
         font-size: 20px;
@@ -726,18 +814,18 @@ input[type="submit"] {
     }
 
     .sobre-nosotros {
-        font-size: 46px;
+        font-size: 40px;
     }
 
     .slogan {
         font-size: 20px;
     }
 
-    .titulo-patrocinadores {
-        font-size: 46px;
+    .titulo-egresados {
+        font-size: 40px;
     }
 
-    .subtitulo-patrocinadores {
+    .subtitulo-egresados {
         font-size: 20px;
     }
 
@@ -751,96 +839,83 @@ input[type="submit"] {
         font-size: 2.5vw;
     }
 
-    .titulo-footer {
+    .titulo-contactos {
         font-size: 40px;
     }
 }
 
+/* Footer Responsive */
 
-/* Scroll Bar */
+@media (max-width: 880px) {
 
-body::-webkit-scrollbar {
-    -webkit-appearance: none;
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
 }
 
-body::-webkit-scrollbar:vertical {
-    width: 8px;
+
+/* Archivos Secundarios */
+
+.red {
+    background: #D3303E;
 }
 
-body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
-    display: none;
-} 
-
-body::-webkit-scrollbar:horizontal {
-    height: 10px;
+.blue {
+    background: #043264;
 }
 
-body::-webkit-scrollbar-thumb {
-    background-color: #043264;
-    border-radius: 20px;
-    border: 2px solid #fff;
+.titulo-red, 
+.titulo-blue {
+    text-align: center;
+    font-size: 40px;
 }
 
-body::-webkit-scrollbar-track {
-    border-radius: 20px;  
+.subtitulo-red, 
+.subtitulo-blue {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
 }
 
-input {
-    border-radius: 20px;
-    font-family: "Raleway";
-    font-weight: 300;
+.titulo-red,
+.subtitulo-red {
+    color: #043264;
 }
 
-textarea {
-    border-radius: 20px;
-    font-family: "Raleway";
-    font-weight: 300;
+.titulo-blue,
+.subtitulo-blue {
+    color: #D3303E;
 }
 
-/* Footer */
-
-footer {
-    width: 100%;
-    margin: 0;
-    background-color: #D3303E;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.subtitulo-red, 
+.subtitulo-blue {
+    margin-bottom: 20px;
 }
 
-.texto-footer {
-    width: 45%;
-    float: left;
-    color: #fff;
-}
-
-.parrafo-footer {
-    margin-bottom: 5px;
-    font-weight: 300;
-    text-align: left;
+.parrafo-white {
+    margin-bottom: 12px;
+    font-weight: 200;
+    text-align: justify;
     line-height: 24px;
-    color:#fff;
-}
-
-.logo-footer {
-    width: 45%;
-    float: right;
-}
-
-.logo-footer-img {
-    width: 100%;
-}
-
-/* Historia */
-
-.fondo-historia {
-    position: relative;
-    background-image: url(../Img/fondo.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    color: rgb(221, 221, 221);
 }
 
 .himno {
@@ -856,127 +931,24 @@ footer {
     font-size: 15px;
 }
 
-.titulo-patrocinadores-historia {
-    margin: 10px 20px 20px 20px;
-    padding: 150px 5vw 0 5vw;
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
-}
-
-
-.subtitulo-patrocinadores-historia {
-    text-align: center;
-    font-size: 10px;
-    color: #D3303E;
-    font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 64px;
+.horario {
+    width: 100%;
 }
 
 .comunicado {
-    margin-left: 80px;
-}
-
-
-.examenes {
-    width: 30vw;
-}
-
-.mapa {
-    width: 90%;
-    text-align: center;
-    margin: 5%;
-
-}
-
-.mapa1 {
-    border-radius: 20px;
-}
-
-.mapa-contactos {
-    width: 90vw;
-    height: 40vw;
-    text-align: center;
-    margin: 5vw;
-
-}
-
-h1 {
-    font-weight: 900;
-}
-
-.parrafo-unico  {
-    margin-top: 20px;
-    margin-bottom: 13px;
-    font-weight: 300;
-    text-align: justify;
-    line-height: 24px;
+    margin-left: 5vw;
     color: rgb(26, 26, 26);
 }
 
-.horario-img {
-    display: inline-block;
-    align-self: center;
-    margin: 5%;
-    width: 90%;
+iframe {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 17, 0.53);
 }
 
-
-li {
-    margin-left: 5vw;
+.a-contactos {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
 }
-
-
-.red {
-    background: #D3303E;
-}
-
-.blue {
-    background: #043264;
-}
-
-.parrafo-white {
-    margin-bottom: 13px;
-    font-weight: 300;
-    text-align: justify;
-    line-height: 24px;
-    color: #f2f2f2;
-}
-
-
-
-.titulo-red,
-.subtitulo-red {
-    color: #043264;
-    text-align: center;
-}
-
-.titulo-red {
-    font-size: 50px;
-    margin-top: 20px;
-}
-
-.subtitulo-red {
-    font-size: 20px;
-    margin-bottom: 30px;
-    font-weight: 300;
-}
-
-.titulo-blue,
-.subtitulo-blue {
-    color: #D3303E;
-    text-align: center;
-}
-
-.titulo-blue {
-    font-size: 50px;
-    margin-top: 20px;
-}
-
-.subtitulo-blue {
-    font-size: 20px;
-    margin-bottom: 30px;
-    font-weight: 300;
-}
-
