@@ -12,10 +12,9 @@ body {
 
 /* Fuentes */
 
-@font-face {
-    font-family: 'Metropolis 900';
+h1 {
+    font-family: 'Metropolis';
     src: url(https://github.com/chrismsimpson/Metropolis/blob/master/Fonts/Webfonts/WOFF/Metropolis-Black.woff) format(woff);
-    font-weight: 900;
 }
 
 @font-face {
